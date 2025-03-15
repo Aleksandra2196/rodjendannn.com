@@ -1,0 +1,337 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #333;
+    height: 200px;
+    text-align: center;
+}
+header {
+    background-color: #30d882;
+    padding: 10px 0;
+    height: 80px;
+    width: 100%;
+    display: table;
+    text-align:center;
+   font-size: 10px;
+    margin: 0;
+
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-orientation: center;
+    text-shadow: #333;
+}
+
+nav ul li {
+    display: inline-block; /* Postavi tabove u red */
+    justify-content: space-around; /* Razmak između tabova */
+    align-items: center;
+    padding: 10px 0;
+    margin-right: 10px;
+    font-size: 10px;
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: rgb(10, 6, 6);
+    font-size: 15px;
+    text-align: center;
+    margin:0;
+
+}
+nav ul li :first-child{
+    margin-left: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #46d885;
+}
+
+ 
+
+section  {
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    background-image: url(imagess/242.jpg);
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    filter: blur(0);
+    background-size: cover;
+    background-position: center;
+}
+
+#home  p {
+    text-align: center;
+    color: black;
+    height: 250px;
+
+    display: table;
+   margin-top: 250px;
+}
+#gym0 p{
+    height: 200px;
+   
+    color: rgb(6, 19, 13);
+    padding: 20px;
+    border-radius: 10px;
+    font-style:italic;
+
+    text-align: center;
+    
+    font-size: 30px;
+    background-image: url(imagess/gym0.jpg);
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+  display: flex;
+  justify-content: center; /* Centriranje teksta horizontalno */
+  align-items: center;
+}
+  #gym p {
+    height: 400px;
+   
+    color: rgb(2, 17, 10);
+    padding: 20px;
+    border-radius: 10px;
+    font-style:italic;
+
+    text-align: center;
+    
+    font-size: 30px;
+    background-image: url(imagess/gym4.jpg);
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+  display: flex;
+  justify-content: center; /* Centriranje teksta horizontalno */
+  align-items: center;
+}
+#gym1 p{
+    height: 400px;
+   
+    color: rgb(19, 66, 43);
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+
+    text-align: center;
+    font-size: 30px;
+    background-image: url(imagess/gym.jpg);
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+    display: flex;
+    justify-content: center; /* Centriranje teksta horizontalno */
+    align-items: center;
+}
+#gym2 p {
+    height: 400px;
+   
+    color:rgb(220, 239, 230);
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+
+    text-align: center;
+    font-size: 30px;
+    background-image: url(imagess/gym1.jpg);
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+    display: flex;
+    justify-content: center; /* Centriranje teksta horizontalno */
+    align-items:center;
+}
+#gym3  {
+    height: 400px;
+   
+    color: rgb(19, 66, 43);
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+
+    text-align: center;
+    font-size: 30px;
+    background-image: url(imagess/gym2.jpg);
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+    display: flex;
+    justify-content: center; /* Centriranje teksta horizontalno */
+    align-items:center;
+}
+#gym3 p a{
+    color: #30d882;
+}
+#gym4 p {
+    height: 400px;
+   
+    color: rgb(226, 252, 240);
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+
+    text-align: center;
+    font-size: 30px;
+    background-image: url(imagess/gym3.jpg);
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+    display: flex;
+    justify-content: center; /* Centriranje teksta horizontalno */
+    align-items:center;
+}
+#gym5 p{
+    height: 200px;
+   
+    color: rgb(205, 230, 220);
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+
+    text-align: center;
+    font-size: 35px;
+    background-image: url(imagess/gym5.jpg);
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+    display: flex;
+    justify-content: center; /* Centriranje teksta horizontalno */
+    align-items:center;
+}
+#energeticar0 p{
+    height: 200px;
+    width: 100%;
+    color: rgb(8, 20, 14);
+    padding:  10px 0;
+    border-radius: 10px;
+    font-style: italic;
+
+    
+    font-size: 30px;
+    background-image: url(imagess/gym0.jpg);
+    border-radius: 0px;
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    text-align: left;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+    display: flex;
+   justify-content: center;
+    align-items:center;
+}
+#energeticar p {
+    height: 530px;
+    width: 100%;
+    color: rgb(8, 20, 14);
+    padding:  10px 0;
+    border-radius: 10px;
+    font-style: italic;
+
+    
+    font-size: 25px;
+    background-image: url(imagess/ulje.jpg);
+    border-radius: 0px;
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    text-align:center;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+    display: flex;
+   justify-content: center;
+    align-items:center;
+}
+
+#energeticar1 p{
+    height: 530px;
+    width: 100%;
+    color: rgb(241, 250, 246);
+    padding:  10px 0;
+    border-radius: 10px;
+    font-style: italic;
+
+    
+    font-size: 25px;
+    background-image: url(imagess/struja1.jpg);
+    border-radius: 0px;
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    text-align: left;
+    position: relative; /* Omogućava pozicioniranje sadržaja unutar kontejnera */
+    display: flex;
+   justify-content: center;
+    align-items:center;
+}
+
+.gallery {
+    padding: 20px;
+    
+    border-radius: 10px;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    background-image: url(imagess/plavooo.jpg);
+    background-repeat: no-repeat;
+    filter: blur(0);
+    background-size: cover;
+    background-position: center;
+    margin-right: 0px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: black 0 0 20px;
+    background-color: aquamarine;
+}
+.gallery figcaption{
+    font-size: 20px;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #30d882;
+    color: rgb(10, 9, 9);
+    height: 80px;
+    
+}
